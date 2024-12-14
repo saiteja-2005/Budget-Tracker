@@ -22,4 +22,4 @@ A simple and interactive Personal Budget Tracker web application that allows use
 1. **Clone the Repository**:
    Clone this repository to your local machine using Git:
    ```bash
-   git clone https://github.com/your-username/personal-budget-tracker.git
+   git clone https://github.com/saiteja-2005/Budget-Tracker.git
