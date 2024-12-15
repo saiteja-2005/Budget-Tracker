@@ -12,8 +12,6 @@ body {
     color: #fff;  
     overflow: hidden;  
 }
-
-
 .container {
     background-color: rgba(255, 255, 255, 0.85); 
     border-radius: 10px;
@@ -24,7 +22,6 @@ body {
     animation: fadeIn 1s ease-out;
     background: linear-gradient(135deg, #f2b1d3, #4e73df); 
 }
-
 h1 {
     font-size: 28px;
     color: #333;
@@ -37,13 +34,10 @@ h1 {
     margin: 10px 0;
     animation: fadeIn 1s ease-out;
 }
-
-
 form {
     margin-top: 20px;
     animation: fadeIn 2s ease-out;
 }
-
 input, button {
     width: 100%;
     padding: 14px;
@@ -59,8 +53,6 @@ input:focus, button:hover {
     border-color: #28a745;
     box-shadow: 0 0 10px rgba(0, 200, 0, 0.5);
 }
-
-
 button {
     background-color: #28a745;
     color: white;
@@ -68,25 +60,20 @@ button {
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
-
-
 button:hover {
     background-color: #218838;
 }
-
 .alert {
     color: red;
     font-weight: bold;
     animation: shake 0.5s ease;
 }
-
 #expenses-list {
     margin-top: 20px;
     text-align: left;
     overflow-y: auto;
     max-height: 300px;
 }
-
 .expense-item {
     display: flex;
     justify-content: space-between;
@@ -99,8 +86,6 @@ button:hover {
     animation: fadeInUp 0.5s ease forwards;
     background-color: #f9f9f9; 
 }
-
-
 .expense-item img {
     width: 50px;
     height: 50px;
@@ -108,13 +93,11 @@ button:hover {
     border-radius: 5px;
     margin-left: 10px;
 }
-
 .expense-item p {
     flex: 1;
     margin: 0;
     font-size: 16px;
 }
-
 @keyframes fadeIn {
     0% {
         opacity: 0;
@@ -123,7 +106,6 @@ button:hover {
         opacity: 1;
     }
 }
-
 @keyframes fadeInUp {
     0% {
         opacity: 0;
@@ -134,7 +116,6 @@ button:hover {
         transform: translateY(0);
     }
 }
-
 @keyframes slideInFromLeft {
     0% {
         transform: translateX(-100%);
@@ -143,7 +124,6 @@ button:hover {
         transform: translateX(0);
     }
 }
-
 @keyframes shake {
     0% {
         transform: translateX(-5px);
@@ -161,17 +141,13 @@ button:hover {
         transform: translateX(0);
     }
 }
-
-
 input:focus, button:hover {
     background-color: #ffe600;  
     color: #333;  
 }
-
 .expense-item:nth-child(odd) {
     background: linear-gradient(135deg, #ffbb00, #ff6600);
 }
-
 .expense-item:nth-child(even) {
     background: linear-gradient(135deg, #ff6600, #ff0033);
 }
